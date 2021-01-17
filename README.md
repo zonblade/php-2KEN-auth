@@ -1,4 +1,4 @@
-# php-2KEN-auth
+# php-2KEN-auth v1.0 Public Version
 plugin simpel untuk menggantikan session.<br>
 untuk memahami penjelasan dibawah pastikan anda sudah memahami cara-cara pemanggilan dalam PHP.<br>
 database 2KEN_auth.sqlite3 harus dalam 1 folder yang sama dengan 2KEN_auth.php `WAJIB!!!`<br>
