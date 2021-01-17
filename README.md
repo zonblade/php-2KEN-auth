@@ -104,7 +104,16 @@ returnya udah array tinggal pake aja.. <br>
 $data         = auth\FetchData('app_name');
 $custom_val   = $data["other_key"];
 ```
-inget kan `other_key` diatas tadi? nah bisa digunain disini.
+inget kan `other_key` diatas tadi? nah bisa digunain disini.<br>
+yang bisa di ekstrak dari `default` adalah
+```
+<?php
+$data       = auth\FetchData('app_name');
+$user_type  = $data["user_type"];
+$user_id    = $data["user_id"];
+$app_name   = $data["app_name"];
+```
+dan tentunya data `other_key`, kan udah dijelasin diatas wkwk.
 <br>
 <hr>
 
