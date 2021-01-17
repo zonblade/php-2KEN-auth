@@ -98,13 +98,11 @@ return array yak. kalau gak penting banget gausa dipakai wkwk nyusahin udah ada 
 <?php
 $data = auth\FetchData('app_name');
 ```
-inget **return**nya `JSON` <br>
-supaya bisa dipake di php, anu convert ke array lagi.
+returnya udah array tinggal pake aja.. <br>
 ```
 <?php
 $data         = auth\FetchData('app_name');
-$data_array   = json_decode($data,true);
-$custom_val   = $data_array["other_key"];
+$custom_val   = $data["other_key"];
 ```
 inget kan `other_key` diatas tadi? nah bisa digunain disini.
 <br>
